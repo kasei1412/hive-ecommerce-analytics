@@ -1,0 +1,22 @@
+# Academic submission materials and local archives
+*.doc
+*.docx
+*.pdf
+*.zip
+
+# Raw or row-level data
+*.sav
+*.sps
+*.csv
+23251008201林佳彦/
+
+# Keep only curated aggregate workbooks moved under results/
+*.xlsx
+*.xls
+!results/*.xlsx
+
+# Local files
+.venv/
+__pycache__/
+.DS_Store
+Thumbs.db
